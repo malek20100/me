@@ -1,0 +1,145 @@
+﻿body {
+    background-color: aqua;
+}
+.content {
+    width:100%;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+.name {
+    color:red;
+    font-weight: bold;
+}
+.mode img {
+    height: 20px;
+    width: 20px;
+}
+
+.morning {
+    display: none;
+}
+
+
+.input {
+    margin-top: 10px;
+    width: 100%; 
+    direction: rtl;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 0;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+button {
+     position: absolute;
+     left: 8px;
+     height: 30px;
+     border-radius: 20px;
+     outline: none;
+     border: 0;
+     background-color: red;
+     width: 30%;
+     color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.elgomhoria , .elshahn ,.embaba , .elwarak , .elbarageel , .october 
+,.kalyoub , .elasher ,.elmaadi , .eltagamoa ,.nasr ,.otostrad ,.bolak ,.saft
+,.elgiza ,.haram ,.fourtyfive ,.agamy ,.manshia ,.bani ,.elgisr ,.abbasia
+,.eldaher ,.elmataria ,.badr ,.madinty ,.masr ,.wafia ,.shams ,.marg ,.mohandseen ,.dokki
+{
+  
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 100px;
+    text-align: center;
+    box-shadow: 2px 2px 2px black ;
+    border-top-left-radius: 15px;
+}
+.elgomhoria a, .elshahn a , .embaba a , .elwarak a ,.elbarageel a , .october a
+,.kalyoub a , .elasher a ,.elmaadi a ,.eltagamoa a,.nasr a ,.otostrad a ,.bolak a ,.saft a
+,.haram a ,.elgiza a ,.fourtyfive a ,.agamy a ,.manshia a ,.bani a ,.elgisr a ,.abbasia a
+,.eldaher a ,.elmataria a ,.badr a ,.madinty a ,.masr a ,.wafia a ,.shams a ,.marg a
+,.mohandseen a ,.dokki a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    color : red;
+    margin-bottom: 10px;
+}
+
+
+
+
+.card {
+    height: 100px;
+    background-color: white;
+    margin-top: 10px;
+    direction: rtl;
+    padding: 30px;
+    
+}
+
+.image1 {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.image1 img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    
+}
+
+.client1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mobile {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mobile a {
+    color: red;
+    text-decoration: none;
+
+}
+
+
+
+@media screen and (min-width:768px){
+  body {
+    display: none;
+  }
+}

@@ -3,6 +3,7 @@
 }
 .content {
     width:100%;
+  
     
 }
 
@@ -31,7 +32,11 @@
     margin-top: 10px;
     width: 100%; 
     direction: rtl;
+    position: absolute;
+    top: 50%;
+    width: 95%;
 }
+
 
 input {
     width: 100%;
@@ -43,9 +48,26 @@ input {
     position: relative;
 }
 
+
+.input2 {
+    margin-top: 30px;
+    width: 100%; 
+    direction: rtl;
+
+    
+}
+
+
+
+
+
+
+
+
+
 button {
      position: absolute;
-     left: 8px;
+     left: 0px;
      height: 30px;
      border-radius: 20px;
      outline: none;
@@ -90,20 +112,22 @@ button {
 
 .footer {
     text-align: center;
-    margin-top: 10px;
     color : red;
-    margin-bottom: 10px;
+    /* position: absolute;
+    bottom: 10px; */
+    left: 30%;
 }
 
 
 
 
 .card {
-    height: 100px;
+    
     background-color: white;
     margin-top: 10px;
     direction: rtl;
     padding: 30px;
+    margin-top: 80px;
     
 }
 
@@ -121,12 +145,12 @@ button {
 
 .client1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .mobile {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -136,10 +160,23 @@ button {
 
 }
 
+.account {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 
-@media screen and (min-width:768px){
+.addres {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+
+ @media screen and (min-width:768px){
   body {
     display: none;
   }
-}
+} 

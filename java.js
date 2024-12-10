@@ -29,10 +29,8 @@ button.onclick = function (){
         location = 'algomhoria10.html'
     }if(input.value == '101111' || input.value.includes('مود')){
         location = 'algomhoria11.html'
-    }else {
-        alert('رقم حساب غير صحيح')
     }
-}
+} 
 
 
 let mode = document.getElementById ('mode');
